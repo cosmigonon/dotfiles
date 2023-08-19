@@ -57,8 +57,10 @@ set incsearch
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 let g:python_highlight_space_errors = 0
+
+
 """"Plugins
-call plug#begin('~/.vim/autoload')
+call plug#begin('~/.vim/plugged')
 
 
 Plug 'sheerun/vim-polyglot'
@@ -80,31 +82,27 @@ Plug 'mhinz/vim-signify'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-Plug 'cocopon/iceberg.vim'
+Plug 'yorickpeterse/happy_hacking.vim' 
 
 Plug 'endel/vim-github-colorscheme'
 
 Plug 'sainnhe/everforest'
 
-Plug 'psf/black',{'tag': '*.*.*'}
+Plug 'dense-analysis/ale'
 
-
+Plug 'psf/black', { 'tag': '*.*.*' }
 
 call plug#end()
 
-"""" Black configuration
+let g:ale_fixers = {}
+let g:ale_fixers.python = ['black']
 
-let g:black_use_virtulenv = 0
+colorscheme happy_hacking
 
-augroup black_on_save
-    autocmd!
-    autocmd BufWritePre *.py Black
-augroup end
-
-nnoremap <F9> :Black<CR>
-
+let g:airline_theme='dark'
 imap <C-ñ> <Esc>
 vmap <leader> <Esc>
 
 map <leader>e $
+
 
