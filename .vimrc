@@ -16,6 +16,9 @@ scriptencoding utf-8
 set number relativenumber
 set mouse=a
 set wrap
+set linebreak
+set nolist
+set tw=80
 set wildmenu
 set showmatch
 set laststatus=2
@@ -88,21 +91,32 @@ Plug 'endel/vim-github-colorscheme'
 
 Plug 'sainnhe/everforest'
 
-Plug 'dense-analysis/ale'
+Plug 'junegunn/seoul256.vim'
+
+" Plug 'dense-analysis/ale'
 
 Plug 'psf/black', { 'tag': '*.*.*' }
 
 call plug#end()
 
-let g:ale_fixers = {}
-let g:ale_fixers.python = ['black']
+" let g:ale_linters = {'python': ['flake8']}
+" let g:ale_fixers = {'python': ['black']}
+" let g:airline#extensions#ale#enabled = 1
+" let g:ale_python_black_executable = 'C:\Users\Usuario\AppData\Local\Programs\Python\Python310\Scripts\black.exe'
+" let g:ale_python_black_use_global = 1
+" let g:ale_fix_on_save = 1
 
-colorscheme happy_hacking
+" colorscheme seoul256
+" let g:seoul256_background = 236
+" set background=dark
 
+set cursorline
+hi CursorLine term=bold cterm=Bold  
 let g:airline_theme='dark'
-imap <C-ñ> <Esc>
+
 vmap <leader> <Esc>
 
 map <leader>e $
+
 
 
