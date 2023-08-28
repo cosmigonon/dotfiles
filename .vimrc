@@ -1,4 +1,4 @@
-" cosmigonon's vimrc config 
+" cosmigonon's vimrc config without plugins.
 
 
 
@@ -45,7 +45,6 @@ set t_vb=
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-set ignorecase
 set ts=4
 
 filetype indent plugin on 
@@ -63,41 +62,41 @@ let g:python_highlight_space_errors = 0
 
 
 """"Plugins
-call plug#begin('~/.vim/plugged')
+"call plug#begin('~/.vim/plugged')
 
 
-Plug 'sheerun/vim-polyglot'
+"Plug 'sheerun/vim-polyglot'
 
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'preservim/nerdcommenter'
+"Plug 'preservim/nerdtree'
+"Plug 'Xuyuanp/nerdtree-git-plugin'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'preservim/nerdcommenter'
 
-Plug 'jiangmiao/auto-pairs'
+"Plug 'jiangmiao/auto-pairs'
 
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
+"Plug 'tpope/vim-surround'
+"Plug 'tpope/vim-fugitive'
 
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
-Plug 'mhinz/vim-signify'
+"Plug 'mhinz/vim-signify'
 
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 
-Plug 'yorickpeterse/happy_hacking.vim' 
+"Plug 'yorickpeterse/happy_hacking.vim' 
 
-Plug 'endel/vim-github-colorscheme'
+"Plug 'endel/vim-github-colorscheme'
 
-Plug 'sainnhe/everforest'
+"Plug 'sainnhe/everforest'
 
-Plug 'junegunn/seoul256.vim'
+"Plug 'junegunn/seoul256.vim'
 
-" Plug 'dense-analysis/ale'
+"Plug 'dense-analysis/ale'
 
-Plug 'psf/black', { 'tag': '*.*.*' }
+"Plug 'psf/black', { 'tag': '*.*.*' }
 
-call plug#end()
+"call plug#end()
 
 " let g:ale_linters = {'python': ['flake8']}
 " let g:ale_fixers = {'python': ['black']}
