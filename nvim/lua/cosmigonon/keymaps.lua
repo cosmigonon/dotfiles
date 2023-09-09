@@ -9,7 +9,7 @@ local keymap = vim.keymap -- Shorten function name
 -- NORMAL MODE
 
 -- Move to the end of the line
-keymap.set("n", "<leader>w", "$")
+keymap.set("n", "<leader>e", "$")
 
 -- Split and navigate buffers
 keymap.set("n", "<Space>sv", "<C-w>v")              -- Vertical split
@@ -23,17 +23,17 @@ keymap.set("n", "<S-l>", ":bnext<CR>", opts)        -- Move to the next buffer
 keymap.set("n", "<S-h>", ":bprevious<CR>", opts)    -- Move to the previous buffer
 
 -- Rezise buffers
-keymap.set("n", "<C-Up>", ":resize +2<CR>", opts)
-keymap.set("n", "<C-Down>", ":resize -2<CR>", opts)
-keymap.set("n", "<C-Left>", ":vertical resize -2<CR>", opts)
-keymap.set("n", "<C-Right>", ":vertical resize +2<CR>", opts)
+keymap.set("n", "<A-Up>", ":resize +2<CR>", opts)
+keymap.set("n", "<A-Down>", ":resize -2<CR>", opts)
+keymap.set("n", "<A-Left>", ":vertical resize -2<CR>", opts)
+keymap.set("n", "<A-Right>", ":vertical resize +2<CR>", opts)
 
 -- Move text up and down
 keymap.set("n", "<A-j>", ":m .+1<CR>", opts)
 keymap.set("n", "<A-k>", ":m .-2<CR>", opts)
 
 -- File explorers
-keymap.set("n", "<leader>e", ":Ex<CR>", opts)
+keymap.set("n", "<leader>w", ":Ex<CR>", opts)
 keymap.set("n", "<leader>l", ":Lex 20<CR>", opts)
 
 -- VISUAL MODE

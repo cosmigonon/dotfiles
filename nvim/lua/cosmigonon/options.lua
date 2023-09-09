@@ -11,7 +11,6 @@ vim.opt.clipboard:append("unnamedplus")
 vim.opt.pumheight = 10
 
 -- Cursor
-vim.opt.guicursor = ""
 vim.opt.cursorline = true
 
 -- Tabs and indentation

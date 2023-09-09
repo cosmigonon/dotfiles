@@ -11,11 +11,10 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-    {import = "cosmigonon.plugins"},
-    },{
+require("lazy").setup( "cosmigonon.plugins",
+    {
     install = {
-        colorscheme = {"github_dark"},
+        colorscheme = {"monokai-pro"},
     },
     checker = {
         enabled = true,
@@ -25,4 +24,4 @@ require("lazy").setup({
         notify = false,
     },
 })
-require("oil").setup()
+

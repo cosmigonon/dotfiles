@@ -3,7 +3,7 @@ return { "nvim-lualine/lualine.nvim",
         local lualine = require("lualine")
         lualine.setup({
             options = {
-                theme = "auto",
+                theme = "monokai-pro",
                 icons_enabled = true,
             },
             sections = {
