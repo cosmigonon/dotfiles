@@ -1,0 +1,16 @@
+{
+    "colors.enable": true,
+    "coc.preferences.formatOnSave": true,
+    "coc.preferences.formatOnType": true,
+    "coc.preferences.extensionUpdateCheck": "weekly",
+    "diagnostic.errorSign": ">>",
+    "codeLens.enable": true,
+    "signature.enable": false,
+    "signature.target": "echo",
+    "suggest.enableFloat": false,
+    // Java config
+    "java.referencesCodeLens.enabled": true,
+    "java.implementationsCodeLens.enabled": true,
+    "java.format.enabled": true,
+    "java.saveActions.organizeImports": true,
+}
