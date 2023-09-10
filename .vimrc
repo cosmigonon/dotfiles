@@ -1,4 +1,4 @@
-" cosmigonon's vimrc config without plugins.
+" Minimal vim configuration 
 
 
 
@@ -59,55 +59,6 @@ set incsearch
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 let g:python_highlight_space_errors = 0
-
-
-""""Plugins
-"call plug#begin('~/.vim/plugged')
-
-
-"Plug 'sheerun/vim-polyglot'
-
-"Plug 'preservim/nerdtree'
-"Plug 'Xuyuanp/nerdtree-git-plugin'
-"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-"Plug 'preservim/nerdcommenter'
-
-"Plug 'jiangmiao/auto-pairs'
-
-"Plug 'tpope/vim-surround'
-"Plug 'tpope/vim-fugitive'
-
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-
-"Plug 'mhinz/vim-signify'
-
-"Plug 'vim-airline/vim-airline'
-"Plug 'vim-airline/vim-airline-themes'
-
-"Plug 'yorickpeterse/happy_hacking.vim' 
-
-"Plug 'endel/vim-github-colorscheme'
-
-"Plug 'sainnhe/everforest'
-
-"Plug 'junegunn/seoul256.vim'
-
-"Plug 'dense-analysis/ale'
-
-"Plug 'psf/black', { 'tag': '*.*.*' }
-
-"call plug#end()
-
-" let g:ale_linters = {'python': ['flake8']}
-" let g:ale_fixers = {'python': ['black']}
-" let g:airline#extensions#ale#enabled = 1
-" let g:ale_python_black_executable = 'C:\Users\Usuario\AppData\Local\Programs\Python\Python310\Scripts\black.exe'
-" let g:ale_python_black_use_global = 1
-" let g:ale_fix_on_save = 1
-
-" colorscheme seoul256
-" let g:seoul256_background = 236
-" set background=dark
 
 set cursorline
 hi CursorLine term=bold cterm=Bold  
