@@ -12,7 +12,7 @@ vim.opt.pumheight = 10
 
 -- Cursor
 vim.opt.cursorline = true
-vim.opt.guicursor = ""
+
 -- Tabs and indentation
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4

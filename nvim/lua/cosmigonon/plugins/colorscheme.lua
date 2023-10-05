@@ -18,7 +18,7 @@ return {
 				annotation = { italic = false },
 				tag_attribute = { italic = false },
 			},
-			filter = "pro",
+			filter = "octagon",
 			inc_search = "background",
 		})
 		vim.cmd([[colorscheme monokai-pro]])
