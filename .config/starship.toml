@@ -1,0 +1,44 @@
+# Starship config file
+
+[directory]
+read_only = " 🔒"
+[username]
+disabled = true
+
+[hostname]
+ssh_only = false
+disabled = true
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+[package]
+disabled = true
+
+[aws]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[git_branch]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = true
+
+[git_metrics]
+disabled = true
+
+[git_status]
+disabled = true
+
+[python]
+symbol = " "
+
+[java]
+symbol = " "
