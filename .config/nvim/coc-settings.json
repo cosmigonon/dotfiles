@@ -1,0 +1,25 @@
+{
+    "colors.enable": true,
+    "coc.preferences.formatOnSave": true,
+    "coc.preferences.formatOnType": true,
+    "coc.preferences.extensionUpdateCheck": "weekly",
+    "diagnostic.errorSign": ">>",
+    "codeLens.enable": true,
+    "signature.enable": false,
+    "signature.target": "echo",
+    "suggest.enableFloat": false,
+    "suggest.noselect": true,
+    // Java config
+    "xml.java.home": "/usr/lib/jvm/java-22-openjdk",
+    "java.referencesCodeLens.enabled": true,
+    "java.implementationsCodeLens.enabled": true,
+    "java.format.enabled": true,
+    "java.saveActions.organizeImports": true,
+    // Lua config
+    "Lua.hint.enable": false,
+    // Python config
+    "pyright.enable": true,
+    "pyright.inlayHints.variableTypes": false,
+    "pyright.inlayHints.functionReturnTypes": false,
+    "pyright.inlayHints.parameterTypes": false,
+}
